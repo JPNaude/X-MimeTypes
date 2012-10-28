@@ -50,7 +50,7 @@ Where:
 
 Note that we use all lowercase characters to describe the vendor's name and product for consistancy.
 
-The above example is pretty simple, and can be extended. Again, you can reference the full specification [here](http://standards.freedesktop.org/shared-mime-info-spec/shared-mime-info-spec-latest.html#id2661973) for more information. The next section will describe EDA specific extensions that are available:
+The above example is pretty simple, and can be extended. Again, you can reference the full specification [here](http://standards.freedesktop.org/shared-mime-info-spec/shared-mime-info-spec-latest.html#id2661973) for more information. The next section will describe EDA specific extensions that are available.
 
 EDA Extensions
 --------------
@@ -84,6 +84,6 @@ The database can simply be used as a reference if you want to quickly look up th
 
 Licensing
 ---------
-The database is available under the Creative Commons Attribution + Noncommercial license. Click [here](http://creativecommons.org/licenses/by-nc/3.0/) for more details.
+The database is available under the Creative Commons Attribution + Noncommercial license. Click [here](http://creativecommons.org/licenses/by-nc/3.0/) for more details on this license. Note that you cannot use this database in a commercial product, if you really want to do that please get in contact.
 
 Copyright (c) 2012-2012, Jaco Naude
