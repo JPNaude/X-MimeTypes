@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info" xmlns:eda="http://github.com/JPNaude/EDA-MimeTypes">
+  <!---------------------------------- Xilinx ---------------------------------->	
+  <mime-type type="application/vnd.xilinx.ise.project_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Project File</comment>
+    <glob pattern="*.prj"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.map.ngd_netlist">
+    <comment xml:lang="en">Ngd Netlist</comment>
+    <glob pattern="*.ngd"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.chipscope.definition_file">
+    <comment xml:lang="en">Xilinx Chipscope Definition File</comment>
+    <glob pattern="*.cdc"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.bitgen.configuration_file">
+    <comment xml:lang="en">Xilinx Configuration File</comment>
+    <glob pattern="*.bit"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.bitgen.binary_configuration_file">
+    <comment xml:lang="en">Xilinx Binary Configuration File</comment>
+    <glob pattern="*.bin"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.ise.project_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx ISE Project File</comment>
+    <glob pattern="*.ise"/>
+	<glob pattern="*.gise"/>
+	<glob pattern="*.xise"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.xst.synthesis_report_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Synthesis Report File</comment>
+    <glob pattern="*.syr"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.xst.synthesis_report_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Synthesis Report File</comment>
+    <glob pattern="*.srp"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.xst.flags_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Flags File</comment>
+    <glob pattern="*.xst"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.xst.library_search_order">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Library Search Order</comment>
+    <glob pattern="*.lso"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.map.map_report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Map Report</comment>
+    <glob pattern="*.map"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.par.place_and_route_report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Place and Route Report</comment>
+    <glob pattern="*.par"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.trace.plain_text_timing_report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Plain Text Timing Report</comment>
+    <glob pattern="*.twr"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.trace.timing_report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Timing Report</comment>
+    <glob pattern="*.twx"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.par.power_report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Power Report</comment>
+    <glob pattern="*.pwr"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.par.unroutes_report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Unroutes Report</comment>
+    <glob pattern="*.unroutes"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.par.pad_text_report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Pad Text Report</comment>
+    <glob pattern="*.pad_txt"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.ise.schematic_file">
+    <comment xml:lang="en">Xilinx Schematic File</comment>
+    <glob pattern="*.sch"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.bitgen.report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Bitgen Report</comment>
+    <glob pattern="*.bgn"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.user_constraints_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx User Constraints File</comment>
+    <glob pattern="*.ucf"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.user_constraints_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx User Constraints File</comment>
+    <glob pattern="*.xcf"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.ise.symbol_file">
+    <comment xml:lang="en">Xilinx Symbol File</comment>
+    <glob pattern="*.sym"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.xst.rtl_file">
+    <comment xml:lang="en">Xilinx RTL File</comment>
+    <glob pattern="*.ngr"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.par.net_delay_report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Net Delay Report</comment>
+    <glob pattern="*.dly"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.par.ibis_report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx IBIS Report</comment>
+    <glob pattern="*.ibs"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.par.constraints_interaction_report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Constraints Interaction Report</comment>
+    <glob pattern="*.tsi"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.par.clock_region_report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Clock Region Report</comment>
+    <glob pattern="*.clk_rgn"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.par.pad_report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Pad Report</comment>
+    <glob pattern="*.pad"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.coregen.parameter_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Coregen Parameter File</comment>
+    <glob pattern="*.xco"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.coregen.arch_wizard_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Architecture Wizard File</comment>
+    <glob pattern="*.xaw"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.coregen.project_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Coregen Project File</comment>
+    <glob pattern="*.cgp"/>
+	<glob pattern="*.cgc"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.map.internal">
+    <comment xml:lang="en">Xilinx Map Internal Files</comment>
+    <glob pattern="*.ngm"/>
+    <glob pattern="*.mdf"/>	
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.map.report">
+    <comment xml:lang="en">Xilinx Map Report</comment>
+    <glob pattern="*.mrp"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.par.placed_and_routed_netlist">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Placed and Routed Netlist</comment>
+    <glob pattern="*.ncd"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.xflow.xflow_option_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx XFLOW Option File</comment>
+    <glob pattern="*.opt"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.xflow.xflow_flow_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx XFLOW Flow File</comment>
+    <glob pattern="*.flw"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.bitgen.internal">
+    <comment xml:lang="en">Xilinx Bitgen Internal Files</comment>
+    <glob pattern="*.ll"/>
+    <glob pattern="*.rbt"/>
+    <glob pattern="*.msk"/>
+    <glob pattern="*.nky"/>	
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.physical_contraints_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Physical Contraints File</comment>
+    <glob pattern="*.pcf"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.ngdbuild.internal">
+    <comment xml:lang="en">Xilinx NgdBuild Internal Files</comment>
+    <glob pattern="*.svf"/>
+    <glob pattern="*.sdf"/>
+    <glob pattern="*.nav"/>
+    <glob pattern="*.nga"/>
+    <glob pattern="*.nlf"/>	
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.bitgen.design_rule_check_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Design Rule Check File</comment>
+    <glob pattern="*.drc"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.ncd2edif.block_ram_population_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Block Ram Population File</comment>
+    <glob pattern="*.elf"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.fpga_editor.log_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">FXilinx PGA Editor Log File</comment>
+    <glob pattern="*.epl"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.cpldfit.cpld_guide_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx CPLD Guide File</comment>
+    <glob pattern="*.gyd"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.cpldfit.hex_bitstream_representation">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Hex Bitstream Representation</comment>
+    <glob pattern="*.hex"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.cpldfit.cpld_programming_file">
+    <comment xml:lang="en">Xilinx CPLD Programming File</comment>
+    <glob pattern="*.jed"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.ise.rom_contents_description">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx ROM Contents Description</comment>
+    <glob pattern="*.mem"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.promgen.internal">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx PROMGen Internal Files</comment>
+    <glob pattern="*.mcs"/>
+    <glob pattern="*.prm"/>	
+    <glob pattern="*.tek"/>	
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.par.par_run_summary">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx PAR Run Summary</comment>
+    <glob pattern="*.xpi"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.partgen.architecture_and_device_information_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx  Architecture And Device Information File</comment>
+    <glob pattern="*.xct"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.cpldfit.internal">
+    <comment xml:lang="en">Xilinx CPLDFit Internal Files</comment>
+    <glob pattern="*.vm6"/>
+    <glob pattern="*.pnx"/>	
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.user_rules_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">User Rules File</comment>
+    <glob pattern="*.urf"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.ngdbuild.testbench_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Testbench File</comment>
+    <glob pattern="*.tvhd"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.ngdbuild.testbench_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Testbench File</comment>
+    <glob pattern="*.tv"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.ngdbuild.cadence_signal_to_pin_mapping">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Cadence Signal_to_Pin Mapping</comment>
+    <glob pattern="*.pin"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.trace.internal">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xiilnx Trace Internal Files</comment>
+    <glob pattern="*.mod"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.fpga_editor.internal">
+    <comment xml:lang="en">Xilinx FPGA Editor Internal Files</comment>
+    <glob pattern="*.nmc"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.fpga_editor.recovery_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx FPGA Editor Recovery File</comment>
+    <glob pattern="*.rcv"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.xflow.command_script">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">XFLOW/FPGA Editor Command Script</comment>
+    <glob pattern="*.scr"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.ngdbuild.translation_report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Translation Report</comment>
+    <glob pattern="*.bld"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.ise.design_strategy_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Design Strategy File</comment>
+    <glob pattern="*.xds"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.impact.project_file">
+    <comment xml:lang="en">Xilinx Impact Project File</comment>
+    <glob pattern="*.ipf"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.chipscope.project_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Chipscope Project File</comment>
+    <glob pattern="*.cpj"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.planahead.project_file">
+    <comment xml:lang="en">PlanAhead Project File</comment>
+    <glob pattern="*.ppr"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.ise.report">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx ISE Report</comment>
+    <glob pattern="*.xrpt"/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.internal">
+    <comment xml:lang="en">Xilinx Internal Files</comment>
+    <glob pattern="*.vdbl"/>
+    <glob pattern="*.vdbx"/>
+    <glob pattern="*.xmsgs"/>
+    <glob pattern="*.key"/>
+    <glob pattern="*.pf"/>
+    <glob pattern="*.ptwx"/>
+    <glob pattern="*.xwbt"/>
+	<glob pattern="*.lst"/>
+    <glob pattern="*.xbcd "/>
+    <eda:generated>true</eda:generated>
+  </mime-type>
+  <!------------------------------ Mentor Graphics ------------------------------>	 
+  <mime-type type="application/vnd.mentor_graphics.hdl_author.symbol">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Mentor Graphics HDL Author Symbol</comment>
+    <glob pattern="*.sb"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.mentor_graphics.hdl_author.structure">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Mentor Graphics HDL Author Structure</comment>
+    <glob pattern="*.bd"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.mentor_graphics.hdl_author.project_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Mentor Graphics HDL Author Project</comment>
+    <glob pattern="*.hdp"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.mentor_graphics.modelsim.do_script">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Mentor Graphics ModelSim Do Script</comment>
+    <glob pattern="*.do"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <!------------------------------ Altera ------------------------------>
+  <mime-type type="application/vnd.altera.quartus.settings_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Altera Quartus Settings File</comment>
+    <glob pattern="*.qsf"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.altera.quartus.project_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Altera Quartus Project File</comment>
+    <glob pattern="*.qpf"/>
+    <eda:generated>false</eda:generated>
+  </mime-type>
+  <mime-type type="application/vnd.altera.quartus.internal">
+    <comment xml:lang="en">Altera Quartus Internal Files</comment>
+    <glob pattern="*.inc"/>
+    <glob pattern="*.atm"/>	
+    <glob pattern="*.bdf"/>	
+    <glob pattern="*.bsf"/>	
+    <glob pattern="*.bsd"/>	
+    <glob pattern="*.cdf"/>	
+    <glob pattern="*.cmp"/>	
+    <glob pattern="*.cvwf"/>	
+    <glob pattern="*.cof"/>	
+    <glob pattern="*.xrf"/>	
+    <glob pattern="*.cdb"/>	
+    <glob pattern="*.hdb"/>	
+	<glob pattern="*.rdb"/>
+    <glob pattern="*.tdb"/>	
+    <glob pattern="*.dpr"/>	
+    <glob pattern="*.gdf"/>	
+    <glob pattern="*.sdo"/>	
+    <glob pattern="*.vo"/>	
+    <glob pattern="*.datasheet"/>	
+    <glob pattern="*.sp"/>	
+    <glob pattern="*.ips"/>	
+    <glob pattern="*.isc"/>	
+    <glob pattern="*.ipx"/>	
+    <glob pattern="*.jbc"/>	
+    <glob pattern="*.jam"/>	
+    <glob pattern="*.jdi"/>	
+    <glob pattern="*.jic"/>	
+    <glob pattern="*.lmf"/>	
+    <glob pattern="*.lai"/>	
+    <glob pattern="*.ppf"/>	
+    <glob pattern="*.apc"/>	
+    <glob pattern="*.pof"/>	
+    <glob pattern="*.cdf"/>	
+    <glob pattern="*.cof"/>	
+    <glob pattern="*.qmsg"/>	
+    <glob pattern="*.rbf"/>	
+    <glob pattern="*.rdp"/>	
+    <glob pattern="*.rcf"/>	
+    <glob pattern="*.saf"/>	
+    <glob pattern="*.stp"/>	
+    <glob pattern="*.spf"/>	
+    <glob pattern="*.sopcinfo"/>	
+    <glob pattern="*.smf"/>	
+    <glob pattern="*.sdo"/>	
+    <glob pattern="*.sym"/>	
+    <glob pattern="*.sdc"/>	
+    <glob pattern="*.ttf"/>	
+    <glob pattern="*.tdf"/>	
+    <glob pattern="*.rpt"/>	
+    <glob pattern="*.tao"/>	
+    <glob pattern="*.tbl"/>	
+    <glob pattern="*.vwf"/>	
+    <glob pattern="*.vec"/>	
+    <glob pattern="*.vqm"/>	
+    <glob pattern="*.wsf"/>	
+    <glob pattern="*.qip"/>	
+    <glob pattern="*.qar"/>	
+    <glob pattern="*.qarlog"/>	
+    <glob pattern="*.qud"/>	
+    <glob pattern="*.qdf"/>	
+    <glob pattern="*.qxp"/>	
+    <glob pattern="*.frf"/>	
+    <glob pattern="*.qws"/>	
+    <glob pattern="*.sof"/>	
+    <eda:generated>false</eda:generated>
+  </mime-type>  
+</mime-info>
