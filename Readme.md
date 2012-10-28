@@ -50,21 +50,21 @@ Where:
 
 Note that we use all lowercase characters to describe the vendor's name and product for consistancy.
 
-The above example is pretty simple, and can be extended. Again, you can reference the full specification [here](http://standards.freedesktop.org/shared-mime-info-spec/shared-mime-info-spec-latest.html#id2661973) for more information.
+The above example is pretty simple, and can be extended. Again, you can reference the full specification [here](http://standards.freedesktop.org/shared-mime-info-spec/shared-mime-info-spec-latest.html#id2661973) for more information. The next section will describe EDA specific extensions that are available:
 
 EDA Extensions
 --------------
 
 In addition to the standard items specified by the freedesktop.org specification, the following additional elements are specified in order to futher classify properties of files applicable to the EDA industry:
 
-> <eda:generated> - Indicates if a file is generated. Thus, it should be ignored by version control systems and be cleaned in clean operations etc.
+* <eda:generated> - Indicates if a file is generated. Thus, it should be ignored by version control systems and be cleaned in clean operations etc.
 
 If you would like to add additional extension tags, please file a request on the issue tracker in order to pick up a discussion over there.
 
 General Hints
 -------------
 
-When you encounter a file that you know belongs to a tool, however you don't know what the file represents, you can add it under an __internal__ group. For example:
+* When you encounter a file that you know belongs to a tool, however you don't know what the file represents, you can add it under an __internal__ group. For example:
 
 ```xml
 <mime-type type="application/vnd.xilinx.map.internal">
@@ -76,6 +76,8 @@ When you encounter a file that you know belongs to a tool, however you don't kno
 ```
 
 Someone out there will know what it is, and in time internal files can be grouped into their own <mine-type> elements.
+
+We use all lowercase characters to describe the vendor's name and product for consistancy.
 
 Using The Database
 ------------------
