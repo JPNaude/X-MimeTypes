@@ -1,7 +1,7 @@
 Introduction
 ------------
 
-The EDA-MimeTypes repository maintains MIME information about files used in the Electronic Design Automation (EDA) industry. [Many companies](http://en.wikipedia.org/wiki/List_of_EDA_companies) (vendors) operate in this field and each company typically has multiple products in their portfolio. Most of the time these products generate many output files and unfortunately in many cases these files are not properly classified by the vendors themselves.
+The EDA-MimeTypes repository maintains MIME information about files types used in the Electronic Design Automation (EDA) industry. [Many companies](http://en.wikipedia.org/wiki/List_of_EDA_companies) (vendors) operate in this field and each company typically has multiple products in their portfolio. Most of the time these products generate many output files and unfortunately in many cases these files are not properly classified by the vendors themselves.
 
 The goal of this repository is to provide a central place to store MIME information about these files. Anyone can reference, contribute, file bugs against or comment on the list.
 
@@ -10,7 +10,7 @@ The aim is to complement the shared MIME-info database maintained by freedesktop
 Background
 ----------
 
-The idea of MIME types are nicely described by the __Shared MIME-info Database specification's__ description:
+The idea of MIME types is nicely described by the __Shared MIME-info Database specification's__ description:
 
 > Many programs and desktops use the MIME system to represent the types of files. Frequently, it is necessary to work out the correct MIME type for a file. This is generally done by examining the file's name or contents, and looking up the correct MIME type in a database.
 >
@@ -20,17 +20,18 @@ The idea of MIME types are nicely described by the __Shared MIME-info Database s
 
 For more information see [the specification itself](http://standards.freedesktop.org/shared-mime-info-spec/shared-mime-info-spec-latest.html/).
 
-In our case, the goal of the EDA mime database is to bring together knowledge about files used in the field and store it in a central place where it can easily be referenced by individuals operating in the EDA-field. 
+In our case, the goal of the EDA-MimeTypes repository is to bring together knowledge about files used in the field and store it in a central place where it can easily be referenced by individuals operating in the EDA-field. 
 
 How It Works
 ------------
 
-In order to classify the vast majority of files in the industry, we use the XML schema specified by freedesktop.org. Using this shema allows anyone to download the database xml file and use it on their local machine (see Using The Database). 
+In order to classify the vast majority of file types in the industry, we use the XML schema specified by freedesktop.org. Using this shema allows anyone to download the database xml file and use it on their local machine (see __Using The Database__). 
 
 The database consists of a single XML file which contains a list of mime-type nodes. Each mime-type node describes a file type in detail and looks something like this:
 
 ```xml
-<mime-type type="application/vnd.xilinx.ise.map_report">
+<mime-type type="application/vnd.xilinx.map.map_report">
+	<sub-class-of type="text/plain"/>
 	<comment xml:lang="en">MAP report</comment>
 	<comment xml:lang="af">MAP verslag</comment>
 	...
@@ -56,7 +57,7 @@ EDA Extensions
 
 In addition to the standard items specified by the freedesktop.org specification, the following additional elements are specified in order to futher classify properties of files applicable to the EDA industry:
 
-__<eda:generated>__ - Indicates if a file is generated. Thus, it should be ignored by version control systems and be cleaned in clean operations.
+> <eda:generated> - Indicates if a file is generated. Thus, it should be ignored by version control systems and be cleaned in clean operations etc.
 
 If you would like to add additional extension tags, please file a request on the issue tracker in order to pick up a discussion over there.
 
