@@ -64,7 +64,7 @@ If you would like to add additional extension tags, please file a request on the
 General Hints
 -------------
 
-* When you encounter a file that you know belongs to a tool, however you don't know what the file represents, you can add it under an __internal__ group. For example:
+When you encounter a file that you know belongs to a tool, however you don't know what the file represents, you can add it under an __internal__ group. For example:
 
 ```xml
 <mime-type type="application/vnd.xilinx.map.internal">
@@ -76,8 +76,6 @@ General Hints
 ```
 
 Someone out there will know what it is, and in time internal files can be grouped into their own <mine-type> elements.
-
-We use all lowercase characters to describe the vendor's name and product for consistancy.
 
 Using The Database
 ------------------
