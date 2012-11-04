@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info" xmlns:eda="http://github.com/JPNaude/EDA-MimeTypes">
-  <!---------------------------------- Xilinx ---------------------------------->	
+  <!-- ================= Xilinx ================= -->
   <mime-type type="application/vnd.xilinx.ise.project_file">
     <sub-class-of type="text/plain"/>
     <comment xml:lang="en">Xilinx Project File</comment>
@@ -396,7 +396,7 @@
     <glob pattern="*.xbcd "/>
     <eda:generated>true</eda:generated>
   </mime-type>
-  <!------------------------------ Mentor Graphics ------------------------------>	 
+  <!-- ================= Mentor Graphics ================= -->  
   <mime-type type="application/vnd.mentor_graphics.hdl_author.symbol">
     <sub-class-of type="text/plain"/>
     <comment xml:lang="en">Mentor Graphics HDL Author Symbol</comment>
@@ -421,7 +421,7 @@
     <glob pattern="*.do"/>
     <eda:generated>false</eda:generated>
   </mime-type>
-  <!------------------------------ Altera ------------------------------>
+  <!-- ================= Altera ================= -->
   <mime-type type="application/vnd.altera.quartus.settings_file">
     <sub-class-of type="text/plain"/>
     <comment xml:lang="en">Altera Quartus Settings File</comment>
