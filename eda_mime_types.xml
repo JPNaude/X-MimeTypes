@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info" xmlns:eda="http://github.com/JPNaude/EDA-MimeTypes">
+  <!-- ================= Generic ================= -->
+  <mime-type type="application/eda.hdl.netlist">
+    <comment xml:lang="en">HDL Netlist</comment>
+    <glob pattern="*.edif"/>
+	<glob pattern="*.edf"/>
+	<glob pattern="*.ngc"/>
+	<glob pattern="*.edn"/>
+	<glob pattern="*.ngo"/>
+    <eda:generated>true</eda:generated>
+  </mime-type> 
+  <mime-type type="application/eda.value_change_dump">
+    <comment xml:lang="en">Value Change Dump</comment>
+    <glob pattern="*.vcd"/>
+  </mime-type>  
+  <!-- ================= Mathworks ================= -->  
+  <mime-type type="application/vnd.mathworks.matlab.simulink.model">
+    <comment xml:lang="en">Simulink Model</comment>
+    <glob pattern="*.mdl"/>
+  </mime-type>   
   <!-- ================= Xilinx ================= -->
   <mime-type type="application/vnd.xilinx.ise.project_file">
     <sub-class-of type="text/plain"/>
@@ -31,20 +50,15 @@
     <sub-class-of type="text/plain"/>
     <comment xml:lang="en">Xilinx ISE Project File</comment>
     <glob pattern="*.ise"/>
-	<glob pattern="*.gise"/>
-	<glob pattern="*.xise"/>
+    <glob pattern="*.gise"/>
+    <glob pattern="*.xise"/>
     <eda:generated>false</eda:generated>
   </mime-type>
   <mime-type type="application/vnd.xilinx.xst.synthesis_report_file">
     <sub-class-of type="text/plain"/>
     <comment xml:lang="en">Xilinx Synthesis Report File</comment>
     <glob pattern="*.syr"/>
-    <eda:generated>true</eda:generated>
-  </mime-type>
-  <mime-type type="application/vnd.xilinx.xst.synthesis_report_file">
-    <sub-class-of type="text/plain"/>
-    <comment xml:lang="en">Xilinx Synthesis Report File</comment>
-    <glob pattern="*.srp"/>
+	<glob pattern="*.srp"/>
     <eda:generated>true</eda:generated>
   </mime-type>
   <mime-type type="application/vnd.xilinx.xst.flags_file">
