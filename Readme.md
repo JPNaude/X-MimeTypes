@@ -3,7 +3,7 @@ Introduction
 
 The X-MimeTypes repository maintains MIME information about files types used in specialized industries/fields. 
 
-The goal of this repository is to provide a central place to store MIME information about these files. Anyone can reference, contribute, file bugs against or comment on the list. The aim is to complement the shared MIME-info database maintained by freedesktop.org, which lacks complete information about the files in these industries industry. 
+The goal of this repository is to provide a central place to store MIME information about these files. Anyone can reference, contribute, file bugs against or comment on the list. The aim is to complement the [shared MIME-info database](http://standards.freedesktop.org/shared-mime-info-spec/shared-mime-info-spec-latest.html) maintained by [freedesktop.org](http://freedesktop.org/), which lacks complete information about the files in these industries industry. 
 
 The following fields are currently addressed, but new fields can be added with little effort:
 * Electronic Design Automation (EDA) - [Many companies](http://en.wikipedia.org/wiki/List_of_EDA_companies) (vendors) operate in this field and each company typically has multiple products in their portfolio. Most of the time these products generate many output files and unfortunately in many cases these files are not properly classified by the vendors themselves.
@@ -57,7 +57,7 @@ The above example is pretty simple, and can be extended. Again, you can referenc
 X-MimeTypes Extensions
 ----------------------
 
-In addition to the standard items specified by the freedesktop.org specification, the following additional elements are specified in order to futher classify properties of files applicable to the EDA industry:
+In addition to the standard items specified by the freedesktop.org specification, the following additional elements are specified in order to futher classify properties of files applicable to the applicable fields industry:
 
 * <x:generated> - Indicates if a file is generated. Thus, it should be ignored by version control systems and be cleaned in clean operations etc.
 
