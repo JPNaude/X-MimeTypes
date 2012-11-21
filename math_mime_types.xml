@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info" xmlns:eda="http://github.com/JPNaude/X-MimeTypes">
+  <!-- ================= Mathworks ================= -->  
+  <mime-type type="application/vnd.mathworks.matlab.simulink.model">
+    <comment xml:lang="en">Simulink Model</comment>
+    <glob pattern="*.mdl"/>
+  </mime-type>   
+</mime-info>
