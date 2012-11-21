@@ -44,6 +44,9 @@
   <mime-type type="application/vnd.xilinx.bitgen.binary_configuration_file">
     <comment xml:lang="en">Xilinx Binary Configuration File</comment>
     <glob pattern="*.bin"/>
+	<magic priority="60">
+      <match type="string" value="\xff\xff\xff\xff" offset="0"/>
+    </magic>	
     <eda:generated>true</eda:generated>
   </mime-type>
   <mime-type type="application/vnd.xilinx.ise.project_file">
