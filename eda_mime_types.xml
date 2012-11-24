@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info" xmlns:eda="http://github.com/JPNaude/X-MimeTypes">
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info" xmlns:x="http://github.com/JPNaude/X-MimeTypes">
   <!-- ================= Generic ================= -->
   <mime-type type="application/eda.hdl.netlist">
     <comment xml:lang="en">HDL Netlist</comment>
@@ -15,9 +15,9 @@
     <glob pattern="*.vcd"/>
   </mime-type>   
   <!-- ================= Xilinx ================= -->
-  <mime-type type="application/vnd.xilinx.ise.project_file">
+  <mime-type type="application/vnd.xilinx.ise.prj_script">
     <sub-class-of type="text/plain"/>
-    <comment xml:lang="en">Xilinx Project File</comment>
+    <comment xml:lang="en">Xilinx Prj Script</comment>
     <glob pattern="*.prj"/>
     <x:generated>true</x:generated>
   </mime-type>
@@ -29,7 +29,7 @@
   <mime-type type="application/vnd.xilinx.chipscope.definition_file">
     <comment xml:lang="en">Xilinx Chipscope Definition File</comment>
     <glob pattern="*.cdc"/>
-    <x:generated>false</x:generated>
+    <x:generated>true</x:generated>
   </mime-type>
   <mime-type type="application/vnd.xilinx.bitgen.configuration_file">
     <comment xml:lang="en">Xilinx Configuration File</comment>
@@ -261,7 +261,7 @@
   </mime-type>
   <mime-type type="application/vnd.xilinx.fpga_editor.log_file">
     <sub-class-of type="text/plain"/>
-    <comment xml:lang="en">FXilinx PGA Editor Log File</comment>
+    <comment xml:lang="en">Xilinx FPGA Editor Log File</comment>
     <glob pattern="*.epl"/>
     <x:generated>true</x:generated>
   </mime-type>

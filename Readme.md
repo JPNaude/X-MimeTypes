@@ -59,7 +59,7 @@ X-MimeTypes Extensions
 
 In addition to the standard items specified by the freedesktop.org specification, the following additional elements are specified in order to futher classify properties of files applicable to the applicable fields industry:
 
-* <x:generated> - Indicates if a file is generated. Thus, it should be ignored by version control systems and be cleaned in clean operations etc.
+* x:generated - Indicates if a file is generated. Thus, it should be ignored by version control systems and be cleaned in clean operations etc.
 
 If you would like to add additional extension tags, please file a request on the issue tracker in order to pick up a discussion over there.
 
@@ -73,7 +73,7 @@ When you encounter a file that you know belongs to a tool, however you don't kno
 	<comment xml:lang="en">Xilinx Map Internal Files</comment>
 	<glob pattern="*.ngm"/>
 	<glob pattern="*.mdf"/>	
-	<eda:generated>true</eda:generated>
+	<x:generated>true</x:generated>
 </mime-type>
 ```
 
