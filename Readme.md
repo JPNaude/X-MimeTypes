@@ -88,4 +88,4 @@ Licensing
 ---------
 The database is available under the Creative Commons Attribution + Noncommercial license. Click [here](http://creativecommons.org/licenses/by-nc/3.0/) for more details on this license.
 
-Copyright (c) 2012-2012, Jaco Naude
+Copyright (c) 2012-2013, Jaco Naude
