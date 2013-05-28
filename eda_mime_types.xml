@@ -15,6 +15,24 @@
     <glob pattern="*.vcd"/>
   </mime-type>   
   <!-- ================= Xilinx ================= -->
+  <mime-type type="application/vnd.xilinx.vivado.journal_file">
+    <comment xml:lang="en">Vivado Journal File</comment>
+    <glob pattern="*.jou"/>
+    <x:generated>true</x:generated>
+  </mime-type>  
+  <mime-type type="application/vnd.xilinx.vivado.project_file">
+    <comment xml:lang="en">Vivado Project</comment>
+    <glob pattern="*.xpr"/>
+  </mime-type>  
+    <mime-type type="application/vnd.xilinx.vivado.xilinx_design_constraints">
+    <comment xml:lang="en">Xilinx Design Constraints</comment>
+    <glob pattern="*.xdc"/>
+  </mime-type>  
+  <mime-type type="application/vnd.xilinx.vivado.design_checkpoint">
+    <comment xml:lang="en">Vivado Design Checkpoint</comment>
+    <glob pattern="*.dcp"/>
+    <x:generated>true</x:generated>
+  </mime-type>   
   <mime-type type="application/vnd.xilinx.ise.prj_script">
     <sub-class-of type="text/plain"/>
     <comment xml:lang="en">Xilinx Prj Script</comment>
@@ -38,14 +56,14 @@
   </mime-type>
   <mime-type type="application/vnd.xilinx.bitgen.binary_configuration_file">
     <comment xml:lang="en">Xilinx Binary Configuration File</comment>
-    <glob pattern="*.bin"/>
 	<magic priority="60">
       <match type="string" value="\xff\xff\xff\xff" offset="0"/>
-    </magic>	
+    </magic>
+    <glob pattern="*.bin"/>
     <x:generated>true</x:generated>
   </mime-type>
   <mime-type type="application/vnd.xilinx.ise.project_file">
-    <sub-class-of type="text/plain"/>
+    <sub-class-of type="application/xml"/>
     <comment xml:lang="en">Xilinx ISE Project File</comment>
     <glob pattern="*.ise"/>
     <glob pattern="*.gise"/>
@@ -56,7 +74,12 @@
     <sub-class-of type="text/plain"/>
     <comment xml:lang="en">Xilinx Synthesis Report File</comment>
     <glob pattern="*.syr"/>
-	<glob pattern="*.srp"/>
+    <x:generated>true</x:generated>
+  </mime-type>
+  <mime-type type="application/vnd.xilinx.xst.synthesis_report_file">
+    <sub-class-of type="text/plain"/>
+    <comment xml:lang="en">Xilinx Synthesis Report File</comment>
+    <glob pattern="*.srp"/>
     <x:generated>true</x:generated>
   </mime-type>
   <mime-type type="application/vnd.xilinx.xst.flags_file">
@@ -124,16 +147,16 @@
     <glob pattern="*.bgn"/>
     <x:generated>true</x:generated>
   </mime-type>
-  <mime-type type="application/vnd.xilinx.user_constraints_file">
+  <mime-type type="application/vnd.xilinx.synthesis_constraints_file">
     <sub-class-of type="text/plain"/>
-    <comment xml:lang="en">Xilinx User Constraints File</comment>
-    <glob pattern="*.ucf"/>
+    <comment xml:lang="en">Xilinx Synthesis Constraints File</comment>
+    <glob pattern="*.xcf"/>
     <x:generated>false</x:generated>
   </mime-type>
   <mime-type type="application/vnd.xilinx.user_constraints_file">
     <sub-class-of type="text/plain"/>
     <comment xml:lang="en">Xilinx User Constraints File</comment>
-    <glob pattern="*.xcf"/>
+    <glob pattern="*.ucf"/>
     <x:generated>false</x:generated>
   </mime-type>
   <mime-type type="application/vnd.xilinx.ise.symbol_file">
@@ -288,10 +311,13 @@
     <glob pattern="*.mem"/>
     <x:generated>false</x:generated>
   </mime-type>
-  <mime-type type="application/vnd.xilinx.promgen.internal">
-    <sub-class-of type="text/plain"/>
-    <comment xml:lang="en">Xilinx PROMGen Internal Files</comment>
+  <mime-type type="application/vnd.xilinx.promgen.prom_programming_file">
+    <comment xml:lang="en">PROM Configuration File</comment>
     <glob pattern="*.mcs"/>
+    <x:generated>true</x:generated>
+  </mime-type>  
+  <mime-type type="application/vnd.xilinx.promgen.internal">
+    <comment xml:lang="en">Xilinx PROMGen Internal Files</comment>
     <glob pattern="*.prm"/>	
     <glob pattern="*.tek"/>	
     <x:generated>true</x:generated>
@@ -435,13 +461,13 @@
   </mime-type>
   <!-- ================= Altera ================= -->
   <mime-type type="application/vnd.altera.quartus.settings_file">
-    <sub-class-of type="text/plain"/>
+    <sub-class-of type="application/xml"/>
     <comment xml:lang="en">Altera Quartus Settings File</comment>
     <glob pattern="*.qsf"/>
     <x:generated>false</x:generated>
   </mime-type>
   <mime-type type="application/vnd.altera.quartus.project_file">
-    <sub-class-of type="text/plain"/>
+    <sub-class-of type="application/xml"/>
     <comment xml:lang="en">Altera Quartus Project File</comment>
     <glob pattern="*.qpf"/>
     <x:generated>false</x:generated>
